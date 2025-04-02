@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.container {
+  margin-top: 50px;
+}
+.question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+.yes {
+  background-color: green;
+}
+.no {
+  background-color: red;
+  position: absolute;
+}
+.image-container {
+  margin-top: 20px;
+}
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+.message {
+  display: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.yes:hover {
+  background-color: darkgreen;
+  transform: scale(1.1);
+}
